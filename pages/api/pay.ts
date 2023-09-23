@@ -4,9 +4,9 @@ import { encodeURL, findReference, validateTransfer } from '@solana/pay';
 import BigNumber from 'bignumber.js';
 
 // CONSTANTS
-const myWallet = 'DemoKMZWkk483hX4mUrcJoo3zVvsKhm8XXs28TuwZw9H'; // Replace with your wallet address (this is the destination where the payment will be sent)
+const myWallet = 'D5sCixbz5CH5L6A7c2YX7E29tVY1813xjzp3Rm9TSbsE'; // Replace with your wallet address (this is the destination where the payment will be sent)
 const recipient = new PublicKey(myWallet);
-const amount = new BigNumber(0.0001); // 0.0001 SOL
+const amount = new BigNumber(0.5); // 0.0001 SOL
 const label = 'QuickNode Guide Store';
 const memo = 'QN Solana Pay Demo Public Memo';
 const quicknodeEndpoint = 'https://example.solana-devnet.quiknode.pro/123456/'; // Replace with your QuickNode endpoint
